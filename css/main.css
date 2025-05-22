@@ -1,23 +1,27 @@
-/* Reset de Browsers */
+/* Reset de navegadores */
 * {
-    box-sizing: border-box; 
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+
 }
 
 /* Configuração da Página */
-body {
-    color: rgb(0, 0, 0);
+body{
+    color: #263138;
+
 }
 
-/*  Cabeçalho - Menu */
+/* Cabeçalho - Menu */
 .menu {
     background-color: #FF9A6C;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 24px 80px;
-    /* Fixar o menu no topo */
+
+    /* Fixar o menu  */
+
     position: fixed;
     top: 0;
     left: 0;
@@ -26,14 +30,15 @@ body {
 }
 
 .menu nav a {
-    color: aliceblue;
+    color: #F0F0F0;
     font-weight: 600;
     padding: 32px;
     text-decoration: none;
 }
 
-/* Configurações da Seção Início */
-#inicio {
+/* Configurações Seção INICIO */
+
+#inicio, #Clinica {
     display: flex;
     align-items: center;
     gap: 32px;
@@ -41,7 +46,7 @@ body {
     position: relative;
 }
 
-h1, h2 {
+h1, h2{
     font-weight: 600;
     font-size: 32px;
     margin-bottom: 32px;
@@ -52,17 +57,18 @@ h1, h2 {
     margin-bottom: 64px;
 }
 
-.botao {
+.botao { 
     background-color: #FF9A6C;
     border-radius: 8px;
-    color: #fff;
+    color: #FFF;
     padding: 16px 32px;
     text-decoration: none;
-} 
 
-.botao-transparente {
+}
+
+.botao-transparente{
     background-color: transparent;
-    color: #FF9A6C;
+    color: #FF725E;
     padding: 16px 32px;
     text-underline-offset: 4px;
 }
@@ -73,4 +79,14 @@ h1, h2 {
     left: 0;
     width: 100%;
     z-index: -10;
+}
+
+ul {
+    margin-bottom: 70px;
+    margin-left: 30px;
+
+}
+
+li {
+    margin-bottom: 15px;
 }
