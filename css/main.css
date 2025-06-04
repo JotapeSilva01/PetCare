@@ -178,7 +178,7 @@ ul li {
 }
 
 .duvida h3 {
-    border: 2px solid #FF725E;
+    border: 2px solid #7F15E2;
     border-radius: 8px;
     cursor: pointer;
     padding: 24px;
@@ -192,9 +192,9 @@ ul li {
 }
 
 .duvida .paragrafo {
-    border-right: 1px solid #FF725E;
-    border-bottom: 1px solid #FF725E;
-    border-left: 1px solid #FF725E;
+    border-right: 1px solid #7F15E2;
+    border-bottom: 1px solid #7F15E2;
+    border-left: 1px solid #7F15E2;
     border-radius: 0 0 9px 8px;
     margin-top: -8px;
     opacity: 0;
@@ -213,7 +213,8 @@ ul li {
 /* footer */
 
 .rodape {
-    background-color: #fdc6ac;
+    color: #fff;
+    background-color: #7F15E2;
     display: flex;
     justify-content: space-between;
     padding: 24px 80px;
@@ -226,7 +227,7 @@ ul li {
 
 .navegacao a{
     text-decoration: none;
-    color: #263138;
+    color: #fff;
 }
 
 .navegacao ul p {
@@ -243,7 +244,7 @@ ul li {
 
 .contatos a {
     text-decoration: none;
-    color: #FF725E;
+    color: #fff;
 }
 
 .faixa {
